@@ -134,8 +134,10 @@ export default function HomePage() {
                   <li>• Practical driving lessons</li>
                   <li>• Test preparation</li>
                 </ul>
-                <Link href="/code08" passHref>
-                  <Button className="w-full mt-4 bg-blue-600 hover:bg-blue-700">Learn More</Button>
+                <Link href="/code08" legacyBehavior passHref>
+                  <Button asChild className="w-full mt-4 bg-blue-600 hover:bg-blue-700">
+                    <a>Learn More</a>
+                  </Button>
                 </Link>
               </CardContent>
             </Card>
@@ -155,8 +157,10 @@ export default function HomePage() {
                   <li>• Safety protocols</li>
                   <li>• Professional certification</li>
                 </ul>
-                <Link href="/code10" passHref>
-                  <Button className="w-full mt-4 bg-red-500 hover:bg-red-600">Learn More</Button>
+                <Link href="/code10" legacyBehavior passHref>
+                  <Button asChild className="w-full mt-4 bg-red-500 hover:bg-red-600">
+                    <a>Learn More</a>
+                  </Button>
                 </Link>
               </CardContent>
             </Card>
@@ -176,8 +180,10 @@ export default function HomePage() {
                   <li>• Load management</li>
                   <li>• Professional driver training</li>
                 </ul>
-                <Link href="/code14" passHref>
-                  <Button className="w-full mt-4 bg-green-600 hover:bg-green-700">Learn More</Button>
+                <Link href="/code14" legacyBehavior passHref>
+                  <Button asChild className="w-full mt-4 bg-green-600 hover:bg-green-700">
+                    <a>Learn More</a>
+                  </Button>
                 </Link>
               </CardContent>
             </Card>
